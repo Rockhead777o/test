@@ -16,4 +16,5 @@ module "aks" {
   enable_auto_scaling                   =   true
   enable_host_encryption                =   true
   vnet_subnet_id                        =   var.vnet_subnet_id
+  cluster_name                          =   var.cluster_name
 }
