@@ -21,4 +21,5 @@ module "aks" {
   agents_max_count                      =   3
   agents_min_count                      =   1
   rbac_aad_managed                      =   true
+  network_plugin                        =   "CNI"
 }
