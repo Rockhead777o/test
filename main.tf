@@ -8,6 +8,7 @@ module "aks" {
   identity_type                         =   "SystemAssigned"
   private_cluster_enabled               =   true
   rbac_aad                              =   true
+  role_based_access_control_enabled     =   true
   network_policy                        =   "azure"
   agents_availability_zones             =   ["1", "2","3"]
   log_analytics_workspace_enabled       =   true
