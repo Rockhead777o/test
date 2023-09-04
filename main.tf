@@ -19,4 +19,6 @@ module "aks" {
   cluster_name                          =   var.cluster_name
   prefix                                =   "test"
   agents_max_count                      =   3
+  agents_min_count                      =   1
+  
 }
