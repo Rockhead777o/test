@@ -18,4 +18,5 @@ module "aks" {
   vnet_subnet_id                        =   var.vnet_subnet_id
   cluster_name                          =   var.cluster_name
   prefix                                =   "test"
+  agents_max_count                      =   3
 }
