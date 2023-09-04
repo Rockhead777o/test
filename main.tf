@@ -17,4 +17,5 @@ module "aks" {
   enable_host_encryption                =   true
   vnet_subnet_id                        =   var.vnet_subnet_id
   cluster_name                          =   var.cluster_name
+  prefix                                =   "test"
 }
