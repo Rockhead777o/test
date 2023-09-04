@@ -5,7 +5,7 @@ variable "resource_group_name" {
 
 variable "cluster_log_analytics_workspace_name" {
   type        = string
-  default     = "rk-log-test"
+  default     = "rk-log-aks-test"
 }
 
 variable "vnet_subnet_id" {
