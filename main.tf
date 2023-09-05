@@ -23,4 +23,5 @@ module "aks" {
   rbac_aad_managed                      =   true
   network_plugin                        =   "azure"
   net_profile_service_cidr              =   "100.64.0.0/16"
+  net_profile_dns_service_ip            =   "100.64.0.10"
 }
