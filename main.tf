@@ -22,4 +22,5 @@ module "aks" {
   agents_min_count                      =   1
   rbac_aad_managed                      =   true
   network_plugin                        =   "azure"
+  net_profile_service_cidr              =   "100.64.0.0/16"
 }
