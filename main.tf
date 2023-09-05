@@ -14,7 +14,7 @@ module "aks" {
   log_analytics_workspace_enabled       =   true
   cluster_log_analytics_workspace_name  =   var.cluster_log_analytics_workspace_name
   enable_auto_scaling                   =   true
-  enable_host_encryption                =   true
+  enable_host_encryption                =   false
   vnet_subnet_id                        =   var.vnet_subnet_id
   cluster_name                          =   var.cluster_name
   prefix                                =   "test"
@@ -24,5 +24,4 @@ module "aks" {
   network_plugin                        =   "azure"
   net_profile_service_cidr              =   "100.64.0.0/16"
   net_profile_dns_service_ip            =   "100.64.0.10"
-  enable_host_encryption                =   true
 }
